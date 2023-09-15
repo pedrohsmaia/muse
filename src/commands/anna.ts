@@ -1,6 +1,8 @@
+import {injectable} from 'inversify';
 import {ChatInputCommandInteraction} from 'discord.js';
 import Command from '.';
 import {SlashCommandBuilder} from '@discordjs/builders';
+
 // eslint-disable-next-line
 @injectable()
 export default class implements Command {
