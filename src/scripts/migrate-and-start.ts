@@ -1,5 +1,5 @@
 // This script applies Prisma migrations
-// and then starts Muse.
+// and then starts Pandora.
 import dotenv from 'dotenv';
 dotenv.config();
 

@@ -15,6 +15,7 @@ import YoutubeAPI from './services/youtube-api.js';
 import SpotifyAPI from './services/spotify-api.js';
 
 // Commands
+import Anna from './commands/anna.js';
 import Command from './commands';
 import Clear from './commands/clear.js';
 import Config from './commands/config.js';
@@ -63,6 +64,7 @@ container.bind<SpotifyAPI>(TYPES.Services.SpotifyAPI).to(SpotifyAPI).inSingleton
 
 // Commands
 [
+  Anna,
   Clear,
   Config,
   Disconnect,

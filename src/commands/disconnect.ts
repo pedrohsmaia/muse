@@ -9,7 +9,7 @@ import Command from '.';
 export default class implements Command {
   public readonly slashCommand = new SlashCommandBuilder()
     .setName('disconnect')
-    .setDescription('pause and disconnect Muse');
+    .setDescription('pause and disconnect Pandora');
 
   public requiresVC = true;
 
@@ -28,6 +28,6 @@ export default class implements Command {
 
     player.disconnect();
 
-    await interaction.reply('u betcha, disconnected');
+    await interaction.reply('Pandora disconnected');
   }
 }
