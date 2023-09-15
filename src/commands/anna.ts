@@ -1,6 +1,8 @@
 import {ChatInputCommandInteraction} from 'discord.js';
 import Command from '.';
 import {SlashCommandBuilder} from '@discordjs/builders';
+// eslint-disable-next-line
+@injectable()
 export default class implements Command {
   public readonly slashCommand = new SlashCommandBuilder()
     .setName('anna')
